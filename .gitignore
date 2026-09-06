@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+frontend/vite-stdout.log
+frontend/vite-stderr.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# Backend
+SRS/target/
+SRS/.mvn/
+
+# Build and cache artifacts
+*.class
+*.jar
+*.war
+
